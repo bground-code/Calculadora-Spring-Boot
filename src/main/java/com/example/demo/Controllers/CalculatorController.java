@@ -54,7 +54,7 @@ public class CalculatorController {
 		model.addAttribute("operator", operator);
 		model.addAttribute("rightOperand", rightNumber);
 		model.addAttribute("result", result);
-
+          // Retornar ao forms principal 
 		model.addAttribute("view", "views/calculatorForm");
 		return "base-layout";
 	}
